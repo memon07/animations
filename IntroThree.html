@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-	<title>Three.js Intro</title>
-	<style>
-        body {
-            overflow: hidden;
-            margin: 0px;
-        }
-    </style>
-</head>
-
-<body>
-</body>
-
+  <head>
+    <title>Triangle</title>
+  </head>
+  <body>
+    <canvas id="renderCanvas" height="1024" width="786"></canvas>
+  </body>
+  <script id="vertexShader" type="vertexShader">
+    #version 300 es
+    in vec3 position;
+    in vec4 color;
+    out vec4 fcolor;
+    
+    void main(){
+      gl_position = vec4(position,1);
+      fcolor = color;
+    }
+  </script>
+  <script id="fragmentShader" type="fragmentShader">
+    #version 300 es
+    in vec4 fcolor;
+    out vec4 finalColor;
+    void main(){
+      gl_position = vec4(position,1);
+      finalColor = fcolor;
+    }
+  </script>
 </html>
