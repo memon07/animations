@@ -11,7 +11,7 @@
 
 ### My Works
 
-#### [WebGL Triangle](WebGLMisc/webglTriangle)
+#### [WebGL Triangle](/webglTriangle)
 
 
 ### Examples
