@@ -35,6 +35,30 @@ function start(){
   }
 
   gl.useProgram(shaderProgram);
+
+  var posAttrLoc = gl.getAttribLocation(shaderProgram, 'position');
+  gl.enableVertexAttribArray(posAttrLoc);
+  gl.bindBuffer(gl.ARRAY_BUFFER, traingleVBuffer);
+  // gl.vertexAttribPointer(index,size,type,normalized,stride,offset);
+  gl.vertexAttribPointer(posAttrLoc,3,gl.FLOAT,false,0,0);
+
+
+  var colAttrLoc = gl.getAttribLocation(shaderProgram, 'color');
+  gl.enableVertexAttribArray(colAttrLoc);
+  gl.bindBuffer(gl.ARRAY_BUFFER, traingleCBuffer);
+  gl.vertexAttribPointer(colAttrLoc,4,gl.FLOAT,false,0,0);
+
+  requestAnimationFrame(runRenderLoop);
+
+  function runRenderLoop(){
+    gl.clearColor(0,0,0,1);
+    gl.clear(gl.COLOR_BUFFER_BIT);
+
+    gl.drawArrays(gl.TRIANGLES,0,3);
+
+    requestAnimationFrame(runRenderLoop);
+  }
+
 }
 
 function getAndCompileShader(id){
