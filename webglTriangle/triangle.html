@@ -6,26 +6,25 @@
   </head>
   <body>
     <canvas id="renderCanvas" height="1024" width="786"></canvas>
-  </body>
-  <srcipt type="text/javascript" src="js"></script>
-  <script id="vertexShader" type="vertexShader">
-    #version 300 es
-    in vec3 position;
-    in vec4 color;
-    out vec4 fcolor;
-    
-    void main(){
-      gl_position = vec4(position,1);
-      fcolor = color;
-    }
-  </script>
-  <script id="fragmentShader" type="fragmentShader">
-    #version 300 es
-    in vec4 fcolor;
-    out vec4 finalColor;
-    void main(){
-      gl_position = vec4(position,1);
-      finalColor = fcolor;
-    }
-  </script>
+    <srcipt src="triangle.js"></script>
+      <script id="vertexShader" type="vertexShader">
+        #version 300 es
+        in vec3 position;
+        in vec4 color;
+        out vec4 fcolor;
+        void main(){
+          gl_Position = vec4(position,1);
+          fcolor = color;
+        }
+      </script>
+      <script id="fragmentShader" type="fragmentShader">
+        #version 300 es
+        precision mediump float;
+        in vec4 fcolor;
+        out vec4 finalColor;
+        void main(){
+          finalColor = fcolor;
+        }
+      </script>
+    </body>
 </html>
