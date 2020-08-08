@@ -10,6 +10,7 @@
 
 ## My Works
 [WebGL Triangle](/webglTriangle)<br/>
+[Introduction to Three.js](/IntroThree)<br/>
 
 
 ## Examples
