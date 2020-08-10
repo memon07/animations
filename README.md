@@ -8,7 +8,7 @@
 :rocket: &nbsp; **Very important topic -**
 [Matrices](http://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrices/)<br/>
 
-## My Works
+## Works
 [WebGL Triangle](/webglTriangle)<br/>
 [Introduction to Three.js](/IntroThree)<br/>
 
