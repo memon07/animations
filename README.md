@@ -13,7 +13,8 @@
 [Introduction to Three.js](/IntroThree)<br/>
 
 
-## Examples
+## Useful Resources
 [Three js examples](https://freefrontend.com/three-js-examples/)<br/>
 [Codrops](https://tympanus.net/codrops/)<br/>
 [Intro in Three.js](https://davidlyons.dev/projects/threejs-intro/)<br/>
+[Regl](https://github.com/regl-project/regl)<br/>
