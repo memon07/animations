@@ -58,4 +58,6 @@ ReactDOM.render(
   <StyleRoot>
     <App />
   </StyleRoot> 
-  ,document.querySelector('#app'))
+  ,document.querySelector('#app') // for online ide
+  ,document.getElementById('root')
+)
