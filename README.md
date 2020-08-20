@@ -6,6 +6,7 @@
 [OpenGl Tutorials](http://www.opengl-tutorial.org/)<br/>
 [Javascripture WebGL](https://www.javascripture.com/WebGLRenderingContext)<br/>
 [React native animation api](https://medium.com/react-native-training/react-native-animations-using-the-animated-api-ebe8e0669fae)<br/>
+[CSS transitions and transforms](https://thoughtbot.com/blog/transitions-and-transforms)<br/>
 :rocket: &nbsp; **Very important topic -**
 [Matrices](http://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrices/)<br/>
 
