@@ -5,9 +5,19 @@
 .box {
   width: 100px;
   height: 100px;
-  background-color: cornflowerblue;
+/*   background-color: cornflowerblue; */
   transition: all 1s; 
-  animation: color-change 5s ease-in-out 2s infinite;
+  animation: color-change 5s ease-in-out 1s infinite alternate;
+}
+
+.box1 {
+   width: 100px;
+  height: 100px;
+  margin-top:100px;
+  background-color: aquamarine;
+  animation: linear infinite alternate;
+  animation-name: move-side;
+  animation-duration: 2s;
 }
 
 @keyframes color-change {
@@ -16,5 +26,15 @@
   }
   100% {
     background-color: cornflowerblue;
+  }
+}
+
+@keyframes move-side {
+  from {
+     transform: translateX(0);
+  }
+  
+  to {
+     transform: translateX(500px);
   }
 }
