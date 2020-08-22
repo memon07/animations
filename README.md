@@ -8,6 +8,7 @@
 [React native animation api](https://medium.com/react-native-training/react-native-animations-using-the-animated-api-ebe8e0669fae)<br/>
 [Basic of CSS transitions and transforms](https://thoughtbot.com/blog/transitions-and-transforms)<br/>
 [CSS animation for beginners](https://thoughtbot.com/blog/css-animation-for-beginners)<br/>
+[Advanced CSS: Animation and Transformation](https://codepen.io/ambethia/post/advanced-css-animation-and-transformation)<br/>
 :rocket: &nbsp; **Very important topic -**
 [Matrices](http://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrices/)<br/>
 
@@ -27,3 +28,8 @@
 [Intro in Three.js](https://davidlyons.dev/projects/threejs-intro/)<br/>
 [Regl](https://github.com/regl-project/regl)<br/>
 [brunoimbrizi blog](http://brunoimbrizi.com/unbox/)
+
+
+## Design & Tools
+[Basic Color Theory](https://www.colormatters.com/color-and-design/basic-color-theory)<br/>
+[ColorBox by lyft](https://www.colorbox.io/)<br/>
