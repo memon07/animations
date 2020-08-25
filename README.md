@@ -31,6 +31,9 @@
 
 
 ## Design & Tools
+[List of cubic bezier](https://easings.net/)<br/>
 [Basic Color Theory](https://www.colormatters.com/color-and-design/basic-color-theory)<br/>
 [ColorBox by lyft](https://www.colorbox.io/)<br/>
 [Design Principles](https://principles.design/)<br/>
+[UI Patterns](http://ui-patterns.com/)<br/>
+[Designerlynx](https://www.designerlynx.co/)<br/>
