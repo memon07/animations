@@ -1,0 +1,29 @@
+body {
+  margin:0;
+  padding: 0;
+}
+
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 350px;
+}
+
+svg text {
+  font-size: 200px;
+  fill: rgba(0,0,0,0.1);
+  stroke-width: 2px;
+  stroke: #000;
+  stroke-linejoin: round;
+  stroke-dasharray: 20;
+  animation: strokeanimate 4s linear infinite;
+}
+
+@keyframes strokeanimate {
+  100% {
+    stroke-dashoffset: 160;
+  }
+}
