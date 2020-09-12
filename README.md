@@ -22,6 +22,7 @@
 [Basic CSS animation example](/css-animation)<br/>
 [CSS Neumorphism Clock](/CSS%20Neumorphism%20Clock)<br/>
 [SVG stroke animation](/svg-stroke-animation)<br/>
+[SVG loader animation](/svg-loader-animation)</br>
 
 
 ## Useful Resources
