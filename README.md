@@ -25,6 +25,7 @@
 [SVG stroke animation](/svg-stroke-animation)<br/>
 [SVG loader animation](/svg-loader-animation)</br>
 [SVG hover btn animation](/svg-hover-btn-animation)</br>
+[Text Shuffler (JQuery)](/text-shuffle)</br>
 
 
 ## Useful Resources
