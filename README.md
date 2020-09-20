@@ -26,6 +26,7 @@
 [SVG loader animation](/svg-loader-animation)</br>
 [SVG hover btn animation](/svg-hover-btn-animation)</br>
 [Text Shuffler (JQuery)](/text-shuffle)</br>
+[flies material text effect (blotter.js)](/flies-material-blotterjs)</br>
 
 
 ## Useful Resources
