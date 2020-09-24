@@ -28,7 +28,7 @@
 [Text Shuffler (JQuery)](/text-shuffle)</br>
 [flies material text effect (blotter.js)](/flies-material-blotterjs)</br>
 [channelsplit material text effect (blotter.js)](/channelsplit-material-blotterjs)</br>
-[CSS hover effect)](/css-hover-effects)</br>
+[CSS hover effect](/css-hover-effects)</br>
 
 
 ## Useful Resources
