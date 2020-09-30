@@ -29,7 +29,8 @@
 [flies material text effect (blotter.js)](/flies-material-blotterjs)</br>
 [channelsplit material text effect (blotter.js)](/channelsplit-material-blotterjs)</br>
 [CSS hover effect](/css-hover-effects)</br>
-[Gooey effect](/gooey-effect)</br>
+[Gooey effect (JavaScript)](/gooey-effect)</br>
+[Mousemove effect (JavaScript)](/movemove-effect)</br>
 
 
 ## Useful Resources
