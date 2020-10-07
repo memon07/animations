@@ -31,6 +31,7 @@
 [CSS hover effect](/css-hover-effects)</br>
 [Gooey effect (JavaScript)](/gooey-effect)</br>
 [Mousemove effect (JavaScript)](/movemove-effect)</br>
+[Rotate text effect (Gsap)](/rotate-text-effect)</br>
 
 
 ## Useful Resources
